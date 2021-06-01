@@ -1,0 +1,8 @@
+#canvasContainer {
+  text-align: center;
+}
+#canvas {
+  background-color: #666;
+  /* align-self: center;
+  text-align: center; */
+}
