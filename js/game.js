@@ -342,7 +342,7 @@
         async function sendScore() {
           try {
             const res = await fetch(
-              `http://www.somerandompage.com/?score=${score} `
+              `https://jsonplaceholder.typicode.com/?score=${score} `
             );
             const data = await res.json();
             console.log(data);
