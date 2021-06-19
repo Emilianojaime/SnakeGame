@@ -187,8 +187,8 @@
     // Draw title
     ctx.fillStyle = "#fff";
     ctx.textAlign = "center";
-    ctx.fillText("SNAKE", 150, 60);
-    ctx.fillText("Press Enter", 150, 90);
+    ctx.fillText("SNAKE", 300, 220);
+    ctx.fillText("Press Enter", 300, 270);
   };
 
   mainScene.act = function () {
@@ -245,9 +245,9 @@
     if (pause) {
       ctx.textAlign = "center";
       if (gameover) {
-        ctx.fillText("GAME OVER", 150, 75);
+        ctx.fillText("GAME OVER", 300, 250);
       } else {
-        ctx.fillText("PAUSE", 150, 75);
+        ctx.fillText("PAUSE", 300, 250);
       }
     }
   };
